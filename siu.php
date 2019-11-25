@@ -3,7 +3,7 @@
     <head>
             <meta name="viewport" content="width=device-width,initial-scale=1.0">
             <title>Read Manhwa</title>
-            <link rel="stylesheet" type="text/css" href="../ManhwaSite/css/modal1.css">
+            <link rel="stylesheet" type="text/css" href="css/modal1.css">
         
             <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     </head>
@@ -16,9 +16,9 @@
                         <form action="siu.php" method="post">
                                 <h1>Create Account</h1>
                                 <div class="social-container">
-                                        <a href="#" class="social"><img src="../ManhwaSite/images/facebook_circle-512.png" width="30px" height="30px"></img></a>
-                                        <a href="#" class="social"><img src="../ManhwaSite/images/google-plus-512.png" width="30px" height="30px"></img></a>
-                                        <a href="#" class="social"><img src="../ManhwaSite/images/social-linkedin-circle-512.png" width="30px" height="30px"></img></a>
+                                        <a href="#" class="social"><img src="images/facebook_circle-512.png" width="30px" height="30px"></img></a>
+                                        <a href="#" class="social"><img src="images/google-plus-512.png" width="30px" height="30px"></img></a>
+                                        <a href="#" class="social"><img src="images/social-linkedin-circle-512.png" width="30px" height="30px"></img></a>
                                     </div>
                                 <span>or use your email for registration</span>
                                 <input type="text" name="user" placeholder="Name" id="user" required/>
@@ -33,9 +33,9 @@
                             <form action="login.php" method="POST">
                                     <h1>Sign In</h1>
                                     <div class="social-container">
-                                            <a href="#" class="social"><img src="../ManhwaSite/images/facebook_circle-512.png" width="30px" height="30px"></img></a>
-                                        <a href="#" class="social"><img src="../ManhwaSite/images/google-plus-512.png" width="30px" height="30px"></img></a>
-                                        <a href="#" class="social"><img src="../ManhwaSite/images/social-linkedin-circle-512.png" width="30px" height="30px"></img></a>
+                                            <a href="#" class="social"><img src="images/facebook_circle-512.png" width="30px" height="30px"></img></a>
+                                        <a href="#" class="social"><img src="images/google-plus-512.png" width="30px" height="30px"></img></a>
+                                        <a href="#" class="social"><img src="images/social-linkedin-circle-512.png" width="30px" height="30px"></img></a>
                                     </div>
                                     <span>or use your account</span>
                                     <input type="text" name="user" placeholder="Username / Name" required/>
@@ -67,7 +67,7 @@
 
 
 
-                <script src="../ManhwaSite/javascript/main.js"></script>
+                <script src="javascript/main.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
                 <script type="text/javascript">
@@ -95,7 +95,7 @@
                                                 Swal.fire({
                                                     title:'Account Register',
                                                     text:data,
-                                                    imageUrl: '../ManhwaSite/images/icon.png',
+                                                    imageUrl: 'images/icon.png',
                                                     imageHeight: 70,
                                                     imageWidth:70
                                             })
